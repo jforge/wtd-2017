@@ -1,0 +1,14 @@
+{
+  "name": "mqtt-client",
+  "version": "1.0.0",
+  "description": "WTD 2017 energie-campus.io MQTT client",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "*"
+  }, 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
