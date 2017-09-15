@@ -14,3 +14,5 @@ Team R.E.D. resources for What The Data!? Hackathon 2017
 ## Other resources
 
 - related gist: https://gist.github.com/jforge/483b57081a64f4204c507bb75a6ec35f
+- SICK sensors gists: https://gist.github.com/rappch1/
+
