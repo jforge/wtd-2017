@@ -1,14 +1,16 @@
 # wtd-2017
 Team R.E.D. Ressourcen für den What The Data!? Hackathon 2017
 
-[patch-pattern]: https://github.com/jforge/wtd-2017/raw/master/docs/images/RED-logo.png "Team RED Logo"
+![alt text][red-logo]
+
+[red-logo]: https://github.com/jforge/wtd-2017/raw/master/docs/images/RED-logo.png "Team RED Logo"
 
 ## R.E.D. Request Patch
 
 Jessica Broscheit, Markus Ulsaß und Klaus Pittig sind ein interdisziplinäres Team
 aus Designerin, Hardware-Entwickler und Softwareentwickler.
 
-In dem Projekt R.E.D. – Request Patch wurde sich der Aufgabe gestellt, an der
+In dem Projekt "Request Patch" wurde sich der Aufgabe gestellt, an der
 Schnittstelle Smart Environments und Human Computer Interaction zu arbeiten,
 
 um ein neuartiges, intuitives und proaktives User Interface (UI) für Smart
@@ -29,6 +31,22 @@ Das heißt es sollten keine blickenden RGB LEDs verbaut werden
 
 ## Idee und Lösung
 
+- Neuartiges User Interface
+- Thermochromatische Materialien (Garn, Filament)
+- Anspruch:
+  - Design: Stofflichkeit, Wertigkeit, Optik, Technischer Unterbau (Wearable), ästhetischer Anspruch
+  - Alternatives, einfaches, natürliches UI
+  - Nicht aufdringlich, sehr klein baubar, kein wildes Blinken, kein wearable Weihnachtsbaum
+  - erfordert keine nervigen Apps, aufwändige Infrastruktur entfällt.
+  - nicht fixiert auf einen Zweck, sondern konfigurierbar.
+
+- Use Case
+  - Patch nehmen und an der Kleidung befestigen und loslaufen.
+  - Signale auf Patch per MQTT (Alarm, Werte, Grenzwerte, Auftrag).
+  - Für physikalisch/chemisch fundierte Schwellwerte keine Ressourcen, daher 2 volatile Werte zur Demonstration
+  - Aktive Beauftragung für ein in Verwendung befindliches Patch, warten bis Bestägigung durch kapazitiven Sensor
+
+
 ### Hardware
 
 - Thermochromatische Farbe gesteuert durch leitfähiges Garn.
@@ -41,11 +59,21 @@ Das heißt es sollten keine blickenden RGB LEDs verbaut werden
 - Node RED Flow für Signalsteuerung und Alarmierung
 
 
+## Herausforderungen
+
+- Strombedarf, Gestaltung/Montage des Wearables.
+- Wif
+- Abstimmung der Steuerung auf das physikalische Verhalten der thermochromatischen Materialien.
+
+
 ## Ausblick
 
-- Grenzwert Analyse,
 - Materialstudie mit Thermochromatischen Filament.
-- Außerdem wäre eine Nutzung am Flughafen, Krankenhaus oder Reiseführer vorstellbar.
+- Außerdem wäre eine Nutzung am Flughafen oder als Reiseführer vorstellbar,
+etwa in Form eines "Guide"-Patches am Arm für Navigation in unbekannten Gebäuden/Räumen.
+- Magnetisch am Arm montierbare Patches.
+- aktive Regelung des thermochromatischen Materials
+- Peltier-Element (kalt/warm) für thermochromatisches Filament.
 
 ## Quellen
 
