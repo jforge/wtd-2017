@@ -2,7 +2,7 @@
 
 The flow was created using Node-RED 0.17.5 with Node-RED dashboard
 
-It visualize some volatile values from a Cybus Connectware
+It visualizes some volatile values from a Cybus Connectware
 data source and triggers values using MQTT
 (simple communication with thermochromic
 patch owner resp. her capacitive sensor).
