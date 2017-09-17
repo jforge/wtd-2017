@@ -7,7 +7,7 @@
  behaviour of thermochromatic material.
 
  To handle the hackathon use case with thermochromatic textiles appropriately
- we need to trigger the "on" signal once (heat-up) and reset (cool-donw) 
+ we need to trigger the "on" signal once (heat-up) and reset (cool-down)
  immediately for some seconds to avoid unwanted physical effects and
  to be able to cool down the thermochromatic material as fast as possible.
 
